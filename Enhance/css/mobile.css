@@ -1,0 +1,26 @@
+@media(max-width: 768px){
+    .body, .form, .team, .timeline, .scopes, .primamary{
+        display:block;
+    }
+    .distance .narrow .p{
+        margin-left: 45%;
+    }
+
+    .distance{        
+        margin-bottom: 20px;
+    }
+
+    .goal, .date{
+        margin-left: 20px;
+    }
+
+    .number{
+        margin-left:20px;
+        padding-top:0;
+    }
+
+    .number p{
+        padding-top:12px;
+        padding-left:3px;
+    }
+}
