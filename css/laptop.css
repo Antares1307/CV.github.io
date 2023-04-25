@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+    width:100%;
+}
+
+section > .container{
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+/* THONG TIN - LY LICH */
+#nav-bar{
+    display:flex;
+    padding-left: 160px;
+    padding-right: 70px;
+}
+
+.VanA{
+    position:relative;
+    text-align: center;
+}
+
+.c{
+    height:65px;
+    width:200px;
+    border-right:1px solid #0bb5f4;
+}
+
+.one{
+    border-left:1px solid #0bb5f4;
+}
+
+.two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image{
+    position:absolute;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:5px solid white;
+    left:0px;
+    top:-100px;
+}
+
+/* a:hover{
+    color:black;
+    font-size: 25px;
+} */
+
+/* IMAGE */
+.five{
+    padding: 0;
+    max-width: 100%;
+}
+
+.banner{
+    position:relative;
+    color:white;
+    text-align: center;
+    /* padding-bottom: 0; */
+}
+
+.a{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+.b{
+    font-size: 80px;
+}
+
+
+
+/* TARGET */
+
+.row{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    /* align-content: center;
+    justify-content: center; */
+    padding:50px 0;
+}
+
+ul.info{
+    list-style: none;
+    padding-left:0;
+}
+
+
+
+/* TTNN */
+#job-info{
+    margin-bottom: 20px;
+}
+
+.lay{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 200px 1fr;
+    border: 1px solid black;
+}
+
+.ex{
+    grid-column: 1/span 2;
+    margin-left: 20px; 
+    align-self: center;
+}
+
+.h{
+    margin-left: 20px; 
+    align-self: center;
+    justify-self: center;
+}
+
+.icon{
+    margin-left: 30px;
+}
+
+.symbol{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+  /* IELTS */
+  .blue{
+    background: #199cdb;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 27%;
+}
+
+.gray{
+    background: gray;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 27%;
+}
+
+    /* JLPT */
+    .J{
+        background: #199cdb;
+        display: inline-block;
+        height: 5px;
+        margin-right: 10px;
+        width: 27%;
+    }
+    
+    .G{
+        background: gray;
+        display: inline-block;
+        height: 5px;
+        margin-right: 10px;
+        width: 27%;
+    }
+
+/* FAV */
+.horse{
+    margin-right:30px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border:1px solid black;
+    padding-left:8px;
+    padding-top:10px;
+}
+
+.symbol p{
+    margin-right: 18px;
+}
+
+/* Certificate */
+.containerh1{
+    padding:10px 0;
+}
+
+.web-java{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    justify-content: center; 
+}
+
+
+.database{
+    padding-top: 20px;
+    border-top: 2px solid #d6c08d;
+}
+
+.non {
+    padding-top: 20px;
+    border-top: 2px solid #d6c08d;
+    }
+
+.web{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+}
+
+.ccdn p{
+    margin-bottom: 0;
+    margin-left: 15px;
+    font-size:20px;
+}
+
+.web-right{
+    border-right: 1px solid rgb(127, 188, 127);
+}
+
+.java{
+    margin-left:20px;
+}
+
+/* PROJECT */
+.project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+#project{
+    margin-bottom: 20px;
+}
+
+.project1{
+    border: 1px solid green;
+}
+
+.ib{
+    display: flex;
+    font-size: 24px;
+    border-bottom: 1px solid green;
+    padding-left:10px;
+    margin-top:16px; 
+}
+
+table{
+    font-size: 24px;
+}
+
+.name{
+    font-size: 24px;
+    border-bottom: 0.1px solid green;
+    padding-left:10px;
+}
+
+.year{
+    width: 50px;
+    height: 35px;
+    color:white;
+    background-color: #0bb5f4;
+    border-radius: 20%;
+    margin-bottom:0;  
+}
+
+/* FOOTER */
+
+.flg {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    color: #199cdb;
+    font-size: 200%;
+  }
+
+
+/* Email */
+
+.hid{
+    display:none;
+}
+
+/* VIEWMORE */
+.hide-ex{
+    display:none;
+}
+
+.viewmore{
+    visibility: hidden;
+    margin: 20px;
+}
+
+.experience:hover .viewmore{
+    visibility: inherit;
+}

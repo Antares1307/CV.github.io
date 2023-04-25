@@ -1,0 +1,53 @@
+@media(max-width: 768px){
+    /* nav-bar */
+       .VanA{
+        display: none;
+    }
+
+    #nav-bar{
+        height: autopx;
+        display: block;
+        margin-bottom: 5px;
+        padding:0;
+    }
+
+    .c{
+        border-left:none;
+        border-right:none;
+        width:100px;
+    }
+
+    /* target */
+    .row{
+        display: block;
+    }
+
+    /* project */
+    .lay{
+        display: block;
+    }
+
+    /* Certificates */
+    .web-java{
+        display:block;
+    }
+
+    .web{
+        display:block;
+    }
+
+    .non{
+        /* display: none; */
+        border: none;
+    }
+    
+    /* Project */
+    .project{
+        display: block;
+    }
+
+    .project1{
+        margin-bottom: 20px;
+    }
+
+}

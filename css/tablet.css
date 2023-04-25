@@ -1,0 +1,31 @@
+@media(min-width: 768px) and (max-width: 1024px){
+    /* nav-bar */
+    #nav-bar{
+        padding:0 115px;
+    }
+
+    .VanA{
+        display: none;
+    }
+    
+    /* Certificates */
+    .web{
+        display:block;
+    }
+
+    /* experience */
+   .lay{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+
+   /* Project */
+   .name, .ib, table{
+    font-size: 15px;
+   }
+   
+   .year{
+    width: 32px;
+    height: 25px;  
+}
+}
